@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(../barbell-1839086_1280.jpg); 
+    opacity: 100%;
+    overflow: hidden; /* This is used so that the page could not be scrolled */
+    color: white;
+}
+
+
+
+.left{
+    display : inline-block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+.left img{
+    width: 61px;
+
+    /* Note :- filter: invert(100%) ;  - This line is used for inverting the image color from black to white and vice versa.. */
+}
+
+.right{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.mid{
+    display: block;
+    width: 47%;
+    margin: 20px auto;
+    
+}
+
+
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none; /* This is used for removing the line from the li */
+    padding: 34px 24px; /* This is used for making the gap between the text on the mid box */
+}
+
+.navbar li a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+
+.btn {
+    margin: 9px 9px;
+    background-color: black;
+    color:white;
+    padding: 10px 9px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    font-size: medium;
+    cursor: pointer; /*This is used for The Hand Type Animation While hovering on the button. */
+}
+
+.btn:hover{
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
+
+.container{
+    background-color: rgb(30, 25, 25);
+    border: 4px solid rgb(255, 255, 255);
+    margin: 75px 745px;
+    padding: 20px 30px;
+    width: 45%;
+    border-radius: 15px;
+}
+
+.formgroup input{
+    text-align: center;
+    display: block;
+    width: 605px;
+    padding: 8px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.formgroup input:hover{
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
+
+.container h1{
+    text-align: center;
+    color: aqua;
+}
+
+.container button {
+    display: block;
+    width: 50%;
+    margin: 50px auto;
+}
